@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram id="IQTkVMRBWVC4bQArVKQY" name="Page-1">
+    <mxGraphModel dx="954" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fS4xoMIIGek1NRyGi7ky-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fS4xoMIIGek1NRyGi7ky-1" target="fS4xoMIIGek1NRyGi7ky-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fS4xoMIIGek1NRyGi7ky-1" value="Start&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="40" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fS4xoMIIGek1NRyGi7ky-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fS4xoMIIGek1NRyGi7ky-2" target="fS4xoMIIGek1NRyGi7ky-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fS4xoMIIGek1NRyGi7ky-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fS4xoMIIGek1NRyGi7ky-2" target="fS4xoMIIGek1NRyGi7ky-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fS4xoMIIGek1NRyGi7ky-2" value="Check NFC Tag Validity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="372.5" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fS4xoMIIGek1NRyGi7ky-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fS4xoMIIGek1NRyGi7ky-3" target="fS4xoMIIGek1NRyGi7ky-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fS4xoMIIGek1NRyGi7ky-3" value="Door Opens" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fS4xoMIIGek1NRyGi7ky-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fS4xoMIIGek1NRyGi7ky-4" target="fS4xoMIIGek1NRyGi7ky-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fS4xoMIIGek1NRyGi7ky-4" value="No" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fS4xoMIIGek1NRyGi7ky-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fS4xoMIIGek1NRyGi7ky-6" target="fS4xoMIIGek1NRyGi7ky-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fS4xoMIIGek1NRyGi7ky-6" value="Yes" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fS4xoMIIGek1NRyGi7ky-8" value="Door does not open" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fS4xoMIIGek1NRyGi7ky-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fS4xoMIIGek1NRyGi7ky-9" target="fS4xoMIIGek1NRyGi7ky-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fS4xoMIIGek1NRyGi7ky-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fS4xoMIIGek1NRyGi7ky-9" target="fS4xoMIIGek1NRyGi7ky-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fS4xoMIIGek1NRyGi7ky-9" value="Is cat still present?&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fS4xoMIIGek1NRyGi7ky-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fS4xoMIIGek1NRyGi7ky-10" target="fS4xoMIIGek1NRyGi7ky-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fS4xoMIIGek1NRyGi7ky-10" value="Yes&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="690" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fS4xoMIIGek1NRyGi7ky-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fS4xoMIIGek1NRyGi7ky-11" target="fS4xoMIIGek1NRyGi7ky-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fS4xoMIIGek1NRyGi7ky-11" value="No" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="690" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fS4xoMIIGek1NRyGi7ky-12" value="Door Stays Open&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fS4xoMIIGek1NRyGi7ky-13" value="Door closes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
